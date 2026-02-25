@@ -54,7 +54,7 @@ Runs on:
 ```
 http://localhost:5173
 ```
-
+--RENDER DEPLOYMENT LINK : https://passwordresetbackend-u973.onrender.com
 ---
 
 ## 🔐 API Endpoints
@@ -80,7 +80,8 @@ POST `/api/auth/forgot-password`
   "email": "test@gmail.com"
 }
 ```
-
+--NOW, THE TOKEN WILL BE SENT TO THE MONGODB ATLAS
+--COPY AND PASTE THE TOKEN ON BELOW LINK'S token AREA
 ---
 
 ### 3️⃣ Reset Password
@@ -91,7 +92,7 @@ POST `/api/auth/reset-password/:token`
   "password": "newpassword"
 }
 ```
-
+-- NOW, PASSWORD RESET SUCCESSFULLY
 ---
 
 ## 🔄 How you Can Test the Project
